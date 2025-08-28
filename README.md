@@ -1,7 +1,6 @@
-# NextMart - Server
+# Abilix - Server
 
-
-NextMart is a robust and scalable backend solution for an e-commerce platform. It handles user authentication, product management, order processing, payment integration, and more. Built with Node.js, Express.js, and MongoDB, this project is designed for high performance and flexibility.
+Abilix is a robust and scalable backend for an e-commerce platform. It handles user authentication, product management, order processing, payment integration, and more. Built with Node.js, Express.js, and MongoDB, this project is designed for high performance and flexibility.
 
 ---
 
@@ -29,12 +28,14 @@ Follow the steps below to set up and run the project locally:
 ### Steps
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Apollo-Level2-Web-Dev/NextMert-Server.git
    cd NextMert-Server
    ```
 
 2. Install dependencies:
+
    ```bash
    yarn install
    # or
@@ -44,13 +45,14 @@ Follow the steps below to set up and run the project locally:
 3. Create a `.env` file in the root directory and configure the environment variables as shown below.
 
 4. Run the development server:
+
    ```bash
    yarn dev
    # or
    npm run dev
    ```
 
-5. Access the application on `http://localhost:3001`.
+5. Access the application on `http://localhost:5001`.
 
 ---
 
@@ -63,7 +65,7 @@ The following `.env` configuration is required to run the project:
 NODE_ENV=development
 
 # Port
-PORT=3001
+PORT=5001
 
 # Database URL
 DB_URL="mongodb+srv://<username>:<password>@cluster0.mongodb.net/<db_name>?retryWrites=true&w=majority"
@@ -105,15 +107,15 @@ CANCEL_URL="<your_cancel_url>"
 
 ## Scripts
 
-- **Start Development Server**: 
+- **Start Development Server**:
   ```bash
   yarn dev
   ```
-- **Build Production**: 
+- **Build Production**:
   ```bash
   yarn build
   ```
-- **Run in Production Mode**: 
+- **Run in Production Mode**:
   ```bash
   yarn start
   ```
@@ -124,5 +126,4 @@ CANCEL_URL="<your_cancel_url>"
 
 [https://documenter.getpostman.com/view/28371413/2sAYQXpCyd](https://documenter.getpostman.com/view/28371413/2sAYQXpCyd)
 
-**NextMart** is a single-vendor e-commerce platform. This repository contains the server-side implementation, providing robust backend services and APIs to power the platform.
-
+**AbilixMart** is a single-vendor e-commerce platform. This repository contains the server-side implementation, providing robust backend services and APIs to power the platform.

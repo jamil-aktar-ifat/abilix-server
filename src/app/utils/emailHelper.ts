@@ -28,7 +28,7 @@ const sendEmail = async (
 
       // Email configuration
       const mailOptions: any = {
-         from: '"NextMart" <support@nextmart.com>',
+         from: '"Abilix" <support@abilix.co.uk>',
          to: email,
          subject,
          html,
